@@ -1,0 +1,24 @@
+.navbar {
+    overflow: hidden;
+    background: purple;
+    color: #ffffff;
+    text-align: center;
+    display: flex;
+    height: 100px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+}
+.naslov{
+    font-size: 30px;
+    display: flex;
+    align-items: center; /* Vertikalno centriranje */
+    justify-content: center; 
+}
+.button{
+    margin: 0 50px;
+    display: flex;
+    align-items: center; /* Vertikalno centriranje */
+    justify-content: center; 
+}
