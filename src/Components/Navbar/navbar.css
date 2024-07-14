@@ -1,16 +1,18 @@
 .navbar {
     overflow: hidden;
-    background: rgb(255, 255, 255);
-    color: #000000;
-    height: 140px;
-    margin-top: 20px;
+    /*145	199	197	 0, 217, 255, 0.69   00, 138, 252*/
+    background-color: RGB(247,	208,	111	);
+    color: rgb(0, 0, 0);
+    height: 200px;
+  
 }
 .content{
+    margin-top: 30px;
     display: flex;
     justify-content: center;
 }
 .naslov{
-    font-size: 50px;
+ 
     display: flex;
     text-align: center;
     justify-content: center; 
@@ -18,7 +20,7 @@
 }
 .button{
     margin: 5px 50px;
-    font-size: 20px;
+    font-size: 30px;
     display: flex;
     align-items: center; /* Vertikalno centriranje */
     justify-content: center; 

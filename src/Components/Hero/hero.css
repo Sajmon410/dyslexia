@@ -9,11 +9,19 @@
     align-items: center;
   }
   .slika{
-    margin-top: 100px;
- 
+    margin-top: 0px;
     width: 100vh;
     background-size: cover;
   background-position: center;
     height: 100vh;
     border-radius: 10px;
+  }
+  .centered {
+    font-size: 40px;
+    color: black;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
   }
