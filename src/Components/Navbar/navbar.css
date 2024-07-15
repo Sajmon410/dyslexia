@@ -1,22 +1,33 @@
 .navbar {
     overflow: hidden;
     /*145	199	197	 0, 217, 255, 0.69   00, 138, 252*/
-    background-color: RGB(247,	208,	111	);
+    background-color: rgb(145	,199	,197);
     color: rgb(0, 0, 0);
-    height: 200px;
+    height: 220px;
   
 }
 .content{
-    margin-top: 30px;
+    margin:  30px 445px;
+    margin-bottom: 0px;
+    border-radius: 20px;
     display: flex;
     justify-content: center;
+    background-color: white;
+    
+}
+.logo{
+    margin: 11px;
 }
 .naslov{
- 
     display: flex;
     text-align: center;
     justify-content: center; 
-    margin: 10px;
+    
+}
+.buttons{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 .button{
     margin: 5px 50px;

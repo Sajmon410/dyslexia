@@ -5,6 +5,16 @@ const colors = [
     'red', 'blue', 'green', 'orange', 'purple', 'brown', 'violet', 'orange'
   ];
   
+  const handleClick = () => {
+    const element = document.getElementById("disleksija");
+
+    if (element) {
+      const yOffset = -0;
+      const y =
+        element.getBoundingClientRect().top + window.pageYOffset + yOffset;
+
+      window.scrollTo({ top: y, behavior:"smooth" });
+    }}
   const ColorfulText = ({ text }) => {
     return (
       <div>
@@ -34,8 +44,11 @@ const Navbar = () => {
             <ColorfulText  text={myText} />
             </motion.div>
             </div>
-            <p className='button'>Šta je disleksija?</p>
-            <p className='button'> O nama</p>
+            <ul className='buttons'>
+            <li><p className='button' onClick={handleClick}>Šta je disleksija?</p></li>
+            <li><p className='button'> Kontakt</p></li>
+            <li><p className='button'> O nama</p></li>
+            </ul>
         </div>
     );
 };

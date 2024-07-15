@@ -1,7 +1,30 @@
-.disleksija{
-    height: 150px;
-    background-color: rgb(100, 138, 252);
+#disleksija{
+    height: 90vh;
+    color: wхите;
+    display: block !important;
+    align-items: center !important;
+    justify-content: center !important;
+    background-color: rgb(145	,199	,197);
 }
 .naslovDisleksija{
+    padding-top: 100px;
+    padding-bottom: 50px;
     margin: 0 !important;
+    text-align: center;
+    font-size: 50px;
+    
+}
+.textdisleksija{
+    text-align: center;
+    font-size: 40px;
+    margin: 0 350px;    
+    
+}
+.kontakt{
+    font-family: SofiaProRegular !important;
+   font-size: 30px !important;
+    background-color: RGB(247,	208,	111	) !important;
+    color: black !important;
+    border-radius: 10px !important;
+    margin-top: 100px !important;
 }
