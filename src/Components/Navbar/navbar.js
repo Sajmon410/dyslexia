@@ -20,7 +20,7 @@ const colors = [
       <div>
         {text.split('').map((char, index) => (
           <span key={index} style={{ color: colors[index % colors.length],
-            fontSize: "90px",
+            fontSize: "70px",
             fontWeight: '900'
            }}>
             {char}
@@ -29,13 +29,14 @@ const colors = [
       </div>
     );
   };
-  const myText = "DAR DISLEKSIJE";
+  const myText = "Jelena Radosavljevic";
 const Navbar = () => {
     return(
         <div className="navbar">
-            <div className="content">
-                <div className="naslov"></div>
-                <motion.div
+            <ul className='buttons'>
+            <li><p className='button' onClick={handleClick}>Šta je disleksija?</p></li>
+            <li><p className='button' onClick={handleClick}>Koji je cilj programa?</p></li>
+            <li> <motion.div
             whileHover={{  rotate: 5, scale: 1.15  }}
             whileTap={{}}
             className="logo"
@@ -43,13 +44,14 @@ const Navbar = () => {
           >
             <ColorfulText  text={myText} />
             </motion.div>
-            </div>
-            <ul className='buttons'>
-            <li><p className='button' onClick={handleClick}>Šta je disleksija?</p></li>
-            <li><p className='button'> Kontakt</p></li>
-            <li><p className='button'> O nama</p></li>
+            </li>
+            <li><p className='button' onClick={handleClick}>O programu</p></li>
+            <li><p className='button' onClick={handleClick}>Kome je program namenjen?</p></li>
+           
+            
             </ul>
-        </div>
+            </div>
+     
     );
 };
 export default Navbar;

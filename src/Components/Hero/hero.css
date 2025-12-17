@@ -1,6 +1,7 @@
 .hero {
-    height: 120vh; 
-   background-color: RGB(247,	208,	111	);
+    height: 100vh; 
+    background-color: var(--bg);
+   /* background-color: RGB(247,	208,	111	); */
     color: rgb(255, 255, 255);
     text-align: center;
     overflow: hidden;
@@ -9,11 +10,10 @@
     align-items: center;
   }
   .slika{
-    margin-top: 0px;
-    width: 100vh;
+    margin-top: 150px;
     background-size: cover;
   background-position: center;
-    height: 100vh;
+
     border-radius: 10px;
   }
   .centered {

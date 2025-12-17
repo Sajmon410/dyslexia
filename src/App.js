@@ -3,6 +3,7 @@ import './App.css'
 import Navbar from './Components/Navbar/navbar.js'
 import Hero from './Components/Hero/hero.js'
 import Disleksija from './Components/StaJeDisleksija/disleksija.js'
+import Cilj from './Components/Cilj/cilj.js'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <Navbar/>
     <Hero/>
     <Disleksija/>
+    <Cilj/>
     </>
   );
 }
